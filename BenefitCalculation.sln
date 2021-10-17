@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeCostOfBenefitCalculation", "EmployeeCostOfBenefitCalculation\EmployeeCostOfBenefitCalculation.csproj", "{F04F63FB-1125-422B-8115-B91F7025EB00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependentCalculation", "DependentCalculation\DependentCalculation.csproj", "{D6C455B3-2506-4D4D-ACC9-484E03A905F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstNameDiscountCalculation", "FirstNameDiscountCalculation\FirstNameDiscountCalculation.csproj", "{A2941751-321F-490D-8871-48A7C5E929EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependentCalculation_Test", "DependentCalculation_Test\DependentCalculation_Test.csproj", "{63D178FF-473B-4099-8395-2CE13451E406}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeCostOfBenefitCalculation_Test", "EmployeeCostOfBenefitCalculation_Test\EmployeeCostOfBenefitCalculation_Test.csproj", "{651A68F7-A3EA-40B0-B05E-83CDE293B2A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstNameDiscountCalculation_Test", "FirstNameDiscountCalculation_Test\FirstNameDiscountCalculation_Test.csproj", "{D1D942AF-750C-46DC-A4D9-5D085ACAB0AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BenefitCalculation.API", "BenefitCalculation.API\BenefitCalculation.API.csproj", "{5237BE6B-30B1-476A-B55E-20776A06E5C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BenefitCalculation.Contracts", "BenefitCalculation.Contracts\BenefitCalculation.Contracts.csproj", "{2670D568-1130-4B3C-A205-7D2B422786B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BenefitCalculation.Service", "BenefitCalculation.Service\BenefitCalculation.Service.csproj", "{F317B070-E019-47AD-956A-E4824E9D6BB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenefitCalculation.Service_Test", "BenefitCalculation.Service_Test\BenefitCalculation.Service_Test.csproj", "{C7F0D21E-57C1-4B3C-8539-028D33A5EF66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F04F63FB-1125-422B-8115-B91F7025EB00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F04F63FB-1125-422B-8115-B91F7025EB00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F04F63FB-1125-422B-8115-B91F7025EB00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F04F63FB-1125-422B-8115-B91F7025EB00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C455B3-2506-4D4D-ACC9-484E03A905F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C455B3-2506-4D4D-ACC9-484E03A905F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C455B3-2506-4D4D-ACC9-484E03A905F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C455B3-2506-4D4D-ACC9-484E03A905F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2941751-321F-490D-8871-48A7C5E929EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2941751-321F-490D-8871-48A7C5E929EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2941751-321F-490D-8871-48A7C5E929EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2941751-321F-490D-8871-48A7C5E929EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63D178FF-473B-4099-8395-2CE13451E406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D178FF-473B-4099-8395-2CE13451E406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D178FF-473B-4099-8395-2CE13451E406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D178FF-473B-4099-8395-2CE13451E406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{651A68F7-A3EA-40B0-B05E-83CDE293B2A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{651A68F7-A3EA-40B0-B05E-83CDE293B2A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{651A68F7-A3EA-40B0-B05E-83CDE293B2A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{651A68F7-A3EA-40B0-B05E-83CDE293B2A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1D942AF-750C-46DC-A4D9-5D085ACAB0AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D942AF-750C-46DC-A4D9-5D085ACAB0AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D942AF-750C-46DC-A4D9-5D085ACAB0AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D942AF-750C-46DC-A4D9-5D085ACAB0AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5237BE6B-30B1-476A-B55E-20776A06E5C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5237BE6B-30B1-476A-B55E-20776A06E5C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5237BE6B-30B1-476A-B55E-20776A06E5C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5237BE6B-30B1-476A-B55E-20776A06E5C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2670D568-1130-4B3C-A205-7D2B422786B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2670D568-1130-4B3C-A205-7D2B422786B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2670D568-1130-4B3C-A205-7D2B422786B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2670D568-1130-4B3C-A205-7D2B422786B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F317B070-E019-47AD-956A-E4824E9D6BB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F317B070-E019-47AD-956A-E4824E9D6BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F317B070-E019-47AD-956A-E4824E9D6BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F317B070-E019-47AD-956A-E4824E9D6BB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7F0D21E-57C1-4B3C-8539-028D33A5EF66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7F0D21E-57C1-4B3C-8539-028D33A5EF66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7F0D21E-57C1-4B3C-8539-028D33A5EF66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7F0D21E-57C1-4B3C-8539-028D33A5EF66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D52BDEA2-3402-421C-BDC3-A5E74D52588B}
+	EndGlobalSection
+EndGlobal

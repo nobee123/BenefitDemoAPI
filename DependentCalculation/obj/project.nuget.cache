@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ow/To62t83Wt4GRqQHKPQYdYAK5Zw0Osy5gKQFtaxpl3P+vSZrF6XHANTntqEONdb0E4No3STQW6GXV2veSA6w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nobee\\Source\\Repos\\BenefitDemoAPI\\DependentCalculation\\DependentCalculation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
